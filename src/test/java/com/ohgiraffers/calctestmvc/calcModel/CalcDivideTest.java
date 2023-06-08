@@ -14,9 +14,9 @@ public class CalcDivideTest {
         this.e=new Exception();
     }
     // 검증내용
-    // 1. 나눌 수 가 0이 되면 IllegalArgumentException을 발생함 (0으로 나눌수 없습니다)
-    // 2. 100/20 = 5
-    // 3. 44/3 = 14
+    // 1. 나눌 수 가 0이 되면 IllegalArgumentException을 발생함 (0으로 나눌수 없습니다)!
+    // 2. 100/20 = 5!
+    // 3. 44/3 = 14 !
 
     @DisplayName("나눌 수 가 0이 되면 IllegalArgumentException을 발생함 (0으로 나눌수 없습니다)")
     @Test
