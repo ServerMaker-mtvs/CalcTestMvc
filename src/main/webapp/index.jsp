@@ -13,7 +13,7 @@
     <br>
     <br>
     <form method="post" name="form1" style="text-align: center;">
-        <input type="text" name="num1" id="num1"> <!-- name속성은 id와같다. 유지보수를 위해 id도 적어줌 -->
+        <input type="text" name="num1" id="num1">
         <select name="op">
             <option selected>+</option>
             <option>-</option>
