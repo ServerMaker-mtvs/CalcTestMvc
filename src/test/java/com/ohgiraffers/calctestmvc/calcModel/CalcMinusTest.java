@@ -29,6 +29,7 @@ public class CalcMinusTest {
         int num1 = 50;
         int num2 = -30;
 
+        //-테스트
         int result2 = calcMinus.minusTwoNumbers(num1, num2);
 
         Assertions.assertEquals(80, result2);
