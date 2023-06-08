@@ -15,7 +15,7 @@ public class CalcView extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String multiTwoNumbers = (String) req.getAttribute("multiTwoNumbers");
+        String twoNumbers = (String) req.getAttribute("twoNumbers");
 
 
         StringBuilder responseText = new StringBuilder();
@@ -25,7 +25,7 @@ public class CalcView extends HttpServlet {
                 .append("<body>\n")
                 .append("<h3 align=\"center\">")  //<h3 align="center">
                 .append("계산 결과는 ")
-                .append(multiTwoNumbers)
+                .append(twoNumbers)
                 .append(" 입니다</h3>")
                 .append("</body>\n")
                 .append("</html>");
